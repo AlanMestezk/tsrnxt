@@ -24,7 +24,22 @@ export default function Home() {
 
         </section>
 
+        <section>
           <h1 className={styles.title}>Aplicação criada para você organizar suas atividades</h1>
+        </section>
+
+        <div className={styles.infoContent}>
+
+          <section className={styles.box}>
+              <span>+12 posts</span>
+          </section>
+
+          <section className={styles.box}>
+              <span>+71 coments</span>
+          </section>
+
+        </div>
+
 
       </main>
 
